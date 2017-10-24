@@ -1,14 +1,162 @@
 <!DOCTYPE html>
 <html>
 <head>
-<tittle>My ECS Github Page</tittle>
+<title>Page Title</title>
 
-<h1>Star Wars</h1>
-<p>Star Wars!</p>
+
+<style>
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}	
+#Yoda {background-color: purple}
+#Luke {background-color: palevioletred}
+#Plo {background-color: DarkBlue}
+#Obi {background-color: LimeGreen}
+</style>
+
+
+
+
+<script>
+
+function openCity(cityName, elmnt, color) {
+    // Hide all elements with class="tabcontent" by default */
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Remove the background color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+
+    // Show the specific tab content
+    document.getElementById(cityName).style.display = "block";
+
+    // Add the specific color to the button used to open the tab content
+    elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+</head>
+<body>
+
+<h1></h1>
+<p></p>
+
+
+
+<div id="London" class="tabcontent">
+  <h3>Kylo Ren</h3>
+  <p>Kylo Ren is a dark side force user and commands the First order.</p>
+</div>
+
+<div id="Obi" class="tabcontent">
+  <h3>Obi Wan Kenobi</h3>
+  <p>Obi Wan Kenobi was a jedi master.</p>
+</div>
+
+<div id="Plo" class="tabcontent">
+  <h3>Plo Koon</h3>
+  <p>Plo Koon was a jedi master.</p>
+</div>
+
+<div id="Luke" class="tabcontent">
+  <h3>Luke</h3>
+  <p>Luke was the son of darth vader.</p>
+</div>
+
+<div id="Yoda" class="tabcontent">
+  <h3>Yoda</h3>
+  <p>Yoda was a grandmaster jedi during the Clone wars.</p>
+</div>
+
+
+<div id="Paris" class="tabcontent">
+  <h3>Darth Vader</h3>
+  <p>Darth Vader the leader of the Empire</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Darth Mual</h3>
+  <p>An athaletic dark side force user</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h3>Thrawn</h3>
+  <p>The Grand Admeril of the Empire</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Kylo Ren</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Darth Vader</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Darth Mual</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Thrwan</button>
+<button class="tablink" onclick="openCity('Yoda', this, 'orange')">Yoda</button>
+<button class="tablink" onclick="openCity('Luke', this, 'orange')">Luke</button>
+<button class="tablink" onclick="openCity('Plo', this, 'orange')">Plo Koon</button>
+<button class="tablink" onclick="openCity('Obi', this, 'orange')">Obi Wan Kenobi</button>
+</body>
+	
+
+
 
 </body>
+	
+    
+    
+    
 </html>
-<h1>I am amazing</h2>
-<a href="https://www.w3schools.com">This is a link</a>
-<br>
-<!I am Amazing>
+	<br>
+    <br>
+	<h1>Star Wars</h1>
+	<p>By: Yajn B.</p>
+	<br>
+	<br>
+    
+	<body bgcolor="#E6E6FA">
+    
+	</body>
+	<p1>This is my github website where you can learn about some of the best star wars characters in the galexy! This website willl go over Darth Vader, Darth Mual, Kylo Ren, Grand Admirel Thrawn, and many other dark and light side characters. Some of the lgiht side characters that will be covered include yoda and luke skywalker</p1>
+	<br>
+	<a href="https://www.w3schools.com">This is a link that I used 
+    </a>
+    
+
+
