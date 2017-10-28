@@ -1,168 +1,177 @@
-<!DOCTYPE html>
-<html>
-<head>
-<!DOCTYPE html>
+<!--this allows you to create the background image over the header called star wars and get the column format for the text to come-->
+    <!DOCTYPE html>
+	<html>
+	<head>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+    .maintext {
+    	-webkit-columns: 300px 2;
+        -moz-columns: 300px 2;
+        columns: 300px 2;
+    }
+    .maintext p {
+    	font-size: 11px;
+    }
+	.container {
+    	position: relative;
+	}
+
+	.center {
+    	position: absolute;
+    	left: 0;
+    	top: 1%;
+    	width: 100%;
+    	text-align: center;
+    	font-size: 30px;
+        
+	}
+
+	img { 
+    	width: 100%;
+    	height: auto;
+    	opacity: 1;
+	}
+	</style>
+	</head>
+	<body>
+	<style>
+    font color = "red"
+    </style>
+	<div class="container">
+  	<img src="https://dustinanddragons.files.wordpress.com/2015/12/ymbvhaq.jpg?w=1920&h=700&crop=1" alt="Norway" width="1000" height="300"> <div class="center"><font size="50"><h2>Star Wars<h2></font>             
+      </div>
+	</div>
+
+
+
+<!--This allows you to create the crossbar that would allow you to be able to access all of the different links-->
+
+    <!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+	ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+	}
+
+	li {
+    	float: left;
+	}
+
+	li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+	}
+
+	li a:hover {
+    	background-color: #111;
+	}
+	</style>
+	</head>
+	<body>
+
+	<ul>
+  		<li><a href="#news" href ="google.com">Kylo Ren</a></li>
+  		<li><a href="#contact" href ="google.com">Darth Vader</a></li>
+  		<li><a href="#about" href ="google.com">Thrawn</a></li>
+  		<li><a href="#about" href ="google.com">Yoda</a></li>
+  		<li><a href="#about" href ="google.com">Obi Wan Kenobi</a>
+        <li><a href="#about" href ="google.com">Luke Skywalker</a>
+        <li><a href="#about" href ="google.com">Mace Windu</a>
+        <li><a href="#about" href ="google.com">Excercises</a>
+    </li>
+	</ul>
+    
+    
+    
+    
+    
+<!--this allows you to create the linear gradient background-->
 <html>
 <head>
 <style>
-.container {
-    position: relative;
-}
 
-.center {
-    position: absolute;
-    left: 0;
-    top: 6%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-}
 
-img { 
-    width: 100%;
-    height: auto;
-    opacity: 1;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <img src="http://www.ophoco.com/download/star-wars-battlefront-ea-dice-art-9vaqia-1920x600.jpg" alt="Norway" width="1000" height="300">
-  <div class="center"><font size="20"><font color="9A0E0E"><h2>Star Wars</h2></font></div
-</div>
-
-</body>
-</html>
-</body>	
-<style>
-/* Style the tab buttons */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-}
-/* Change background color of buttons on hover */
-.tablink:hover {
-    background-color: #777;
-}
-/* Set default styles for tab content */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
-}
-/* Style each tab content individually */ 
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}	
-#Yoda {background-color: purple}
-#Luke {background-color: palevioletred}
-#Plo {background-color: DarkBlue}
-#Obi {background-color: LimeGreen}
+	body {
+    	background: -webkit-linear-gradient(left, blue, purple);
+    }
 </style>
 
-
-
-
-<script>
-function openCity(cityName, elmnt, color) {
-    // Hide all elements with class="tabcontent" by default */
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    // Remove the background color of all tablinks/buttons
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-    }
-    // Show the specific tab content
-    document.getElementById(cityName).style.display = "block";
-    // Add the specific color to the button used to open the tab content
-    elmnt.style.backgroundColor = color;
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
 </head>
 <body>
-<div id="London" class="tabcontent">
-  <h3>Kylo Ren</h3>
-  <p>Kylo Ren is a dark side force user and commands the First order.</p>
+<h3>By: Yajn B<h3>
+
+<p><font size = 3> This is my first html website that I have created and it's topic is about star wars characters. Below you will find a summary of everything that happened before the phantom menace. After reading that you can click to learn more about the characters that are listed here.</font><p>
+
+
+
+
+
+<!--This creates the images that are on the side of the text-->
+
+<br>
+<div class="maintext">
+<img src ="http://pm1.narvii.com/6082/81399a8be8609cb666c7d8017d1dddfb6c1ff54e_hq.jpg">
+<img src = "https://vignette.wikia.nocookie.net/starwars/images/9/9b/Darth_Bane_canon.png/revision/latest?cb=20150414043712">
+<img src = "http://img14.deviantart.net/3307/i/2015/102/a/b/lord_revan_by_elucidator-d8piwtu.png">
+<img src = "https://vignette.wikia.nocookie.net/swfanon/images/f/fe/JediTemple-TORtrailer.jpg/revision/latest?cb=20091202204249">
+
+<img src = "https://qph.ec.quoracdn.net/main-qimg-494c5566e7b56fd11fc176efdfcd6139">
+<img src = "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg?region=0%2C0%2C1536%2C864&width=600">
+<br>
+<br>
+<br>
+
+
+
+
+<!--This creates the text that will be displayed next to each of the images and gives the background of everything leading up to the phantom menace.-->
+
+
+<p> <font size = ".1">"After sentient life forms had harnessed the ability to utilize hyperspace to travel the galaxy, they began to form alliances with other systems, banding together into larger and larger organizations that would eventually come together to create the massive Old Republic. 
+
+With the formation of the Republic, based out of the Core world of Coruscant, civilization began to spread out toward the far corners of the galaxy, setting hyperspace beacons, exploring new trade routes, and colonizing and settling new planets. While Republic rule diminished in the most distant systems, it was the infrastructure provided by the Republic that allowed society to stretch as far as it did.
+
+Long after its dissolution, the lasting impact of the Old Republic could still be seen through the use of established trade routes, colonization of far flung systems, a somewhat common currency, language, and other semi-consistent cultural touchstones.There are many ancient orders of Force sensitive beings, but the most prolific order was that of the Jedi. As with the formation of the Old Republic, it was the advent of hyperspace travel that truly allowed the Jedi to grow. The ability to easily travel between systems allowed Force users from various worlds to come together and form the Jedi Code, and then set out to establish temples, the first of which was built on the planet Ahch-To.
+
+This network of temples would expand to include many more planets, including an especially precious temple on the planet Ilum, the home of the Jedi’s supply of kyber crystals, which Jedi younglings would harvest during The Gathering – one of the most sacred Jedi trials. Once a Jedi youngling had obtained a Kyber crystal, they would use it to build a lightsaber, the weapon of a Jedi, and often their only posession. The Jedi younglings were trained by Jedi Masters until they had gained a sufficient mastery of the Force. At this time, they would either be paired with a Jedi Knight as an apprentice – called a Padawan – or go into one of the many other professions in the Jedi Order, such as archivist or temple guard.
+
+As the Jedi Order grew and expanded, so did the Old Republic. The Jedi Order eventually came to serve as protectors of the Republic, allowing the government to expand into new systems, spreading civilization to more and more planets. nfortunately, the early days of the Jedi weren’t marked solely by success and growth. In the nascent days of the order, a Jedi experimented with the dark side of the Force, finding that he could draw on immense power by giving into selfish emotions. When the Jedi Council discovered his meddling, he was banished, taking followers with him and giving birth to the Sith. The schism in the Jedi Order and the formation of the Sith marked what would be known as the Hundred-Year Darkness. 
+
+The Sith used slavery to build a massive empire, ranging from Yavin IV (where they enslaved the Massasi, forcing them to build giant temples), to Coruscant, where the Sith were headquartered for a time, building a Sith shrine in the deep levels of the core world.
+
+The years of wars between the Jedi and Sith spanned the entire galaxy, with major battles hitting planets like Takodana and Malachor before the Sith were eventually forced to abandon their home planet of Moraband, their Empire collapsing due to greed and infighting.
+
+Only a powerful Sith Lord, Darth Bane, managed to survive. Hiding in the shadows, he would take on and train an apprentice, forming the Sith Rule of Two. While the Rule of Two was in no way a new concept – it had been practiced by the Sith before – it was Darth Bane that made it an absolute rule, knowing that the Sith were too greedy to survive if their numbers were too numerous.
+
+The Sith continued to exist as such for thousands of years, completely unbeknownst to the Jedi Order. A Dark Lord of the Sith would take on an apprentice who would eventually try to kill his master and take his place. If he failed, the Dark Lord would simply get another apprentice. This order of succession had no tolerance for weakness and ensured that the Sith only became more powerful with each generation.As the Sith Empire crumbled, so did the Old Republic. Wars with the Mandalorians and the Zygerrian Slaving Empire had worn the Republic down to the point of collapse. With the aid of the Jedi, the Old Republic reorganized, reformed, and rebuilt as a democracy – the Galactic Republic.
+
+A part of this reorganization included disbanding any standing military presence. Member systems were allowed to maintain their own defense forces, but the Galactic Republic wanted to set an example by putting down its guns.
+
+Not all systems were fans of this policy. While most of the galaxy was ready for peace, the warriors of Amaxine opposed this decision, especially because their main industry was in weapons trade. Withdrawing from the Republic, the Amaxine warriors traveled to the farthest reaches of the galaxy, possibly leaving it altogether in search of a new home.
+
+The Republic returned its capital to Coruscant, also making the planet the home for the new Galactic Senate where delegates from each member system could represent their people in the crafting of new legislation and election of Republic leadership.Uninhibited by the Sith, or any other galaxy wide conflict, the Jedi Order also flourished during this time. Yoda, a future Jedi Master and head of the Jedi Council, was born on an unknown planet nearly two centuries after the end of the Old Republic and the formation of the Galactic Republic. The Jedi Code slowly shifted to deter the Jedi from conducting larger military operations, encouraging the order to focus their efforts on peacekeeping efforts on behalf of the new Galactic Republic.
+
+Making Coruscant their primary home, the Jedi built a massive Jedi Temple on top of the old Sith shrine in an effort to contain its influence. The order moved the Jedi Council chambers to the highest point in the tower, making Coruscant the epicenter of the Jedi Order.
+
+As they grew into this new role, the Jedi frequently served as negotiators and arbiters responsible for ensuring isolated conflicts didn’t fan the flames of violence to instigate larger confrontations. Under their watch, the galaxy would experience generations of relative peace.
+
+In further efforts to avoid allowing the mistakes of the past to repeat, the Republic built a prison called the Citadel on the planet Lola Sayu. The Citadel was designed to be an inescapable fortress where rogue Jedi could be detained, in order to limit the potential for another schism.The Sith persevered in the shadows for over a thousand years, completely unbeknownst to the Jedi thanks to Darth Bane’s implementation of the Rule of Two. Sith Masters would take on and train apprentices until the apprentice eventually attempted to rise up and defeat the master, ensuring each generation was stronger than the last. Eventually this practice produced a Sith Lord by the name of Darth Plagueis. Plagueis usurped his master in the tradition of the Sith to become the reigning Dark Lord, and took on a young man from Naboo, Sheev Palpatine, as his own apprentice.
+
+Plagueis had dedicated much of his life to studying midi-chlorians, and believed the knowledge he’d learned would grant him the power to both create life and save others from death. After he taught these lessons to Sheev, who had taken the name of Darth Sidious, his apprentice killed him in his sleep, rising up to replace Plagueis as the new Sith Master.
+
+Unaware of the continued existence of the Sith due to the combined influence of their vision being clouded by the shrine beneath the Jedi Temple and the Rule of Two, the Jedi grew complacent.
+
+Around this time, a baby boy is born to a virgin slave of Gardulla the Hutt on the outer rim planet of Tatooine. His mother gives him the name Anakin Skywalker. After this point in the star wars universe all of the movies explain it this leads up to the Phantom Meanace"</font><p>
 </div>
 
-<div id="Obi" class="tabcontent">
-  <h3>Obi Wan Kenobi</h3>
-  <p>Obi Wan Kenobi was a jedi master.</p>
-</div>
-
-<div id="Plo" class="tabcontent">
-  <h3>Plo Koon</h3>
-  <p>Plo Koon was a jedi master.</p>
-</div>
-
-<div id="Luke" class="tabcontent">
-  <h3>Luke</h3>
-  <p>Luke was the son of darth vader.</p>
-</div>
-
-<div id="Yoda" class="tabcontent">
-  <h3>Yoda</h3>
-  <p>Yoda was a grandmaster jedi during the Clone wars.</p>
-</div>
-
-
-<div id="Paris" class="tabcontent">
-  <h3>Darth Vader</h3>
-  <p>Darth Vader the leader of the Empire</p> 
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Darth Mual</h3>
-  <p>An athaletic dark side force user</p>
-</div>
-
-<div id="Oslo" class="tabcontent">
-  <h3>Thrawn</h3>
-  <p>The Grand Admeril of the Empire</p>
-</div>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Kylo Ren</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Darth Vader</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Darth Mual</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Thrwan</button>
-<button class="tablink" onclick="openCity('Yoda', this, 'orange')">Yoda</button>
-<button class="tablink" onclick="openCity('Luke', this, 'orange')">Luke</button>
-<button class="tablink" onclick="openCity('Plo', this, 'orange')">Plo Koon</button>
-<button class="tablink" onclick="openCity('Obi', this, 'orange')">Obi Wan Kenobi</button>
-</body>
-
-</body>
-    
-</html>
-	font-size: 6px;
-	<p><font-size: 6px>By: Yajn B.</font-size></p>
-	<br>
-	<br>
-    
-	<body bgcolor="#E6E6FA">
-    	
-	</body>
-	<p1><font-size: 6px>This is my github website where you can learn about some of the best star wars characters in the galexy! This website willl go over Darth Vader, Darth Mual, Kylo Ren, Grand Admirel Thrawn, and many other dark and light side characters. Some of the lgiht side characters that will be covered include yoda and luke skywalker</font-size></p1>
-	<br>
-	<a href="https://www.w3schools.com">This is a link that I used 
-    
-    
-
-<img src = "http://www.nathaliemaes.be/blog/wp-content/uploads/2015/12/Star-Wars-The-Force-Awakens-poster-960x600.jpg" alt="Force Awakens" width="25" height="3">
 
